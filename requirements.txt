@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+wordfreq
+torch
+transformers
+datasets
+anthropic
+openai
