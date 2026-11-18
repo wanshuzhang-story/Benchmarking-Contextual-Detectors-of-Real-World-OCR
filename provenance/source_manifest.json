@@ -1,0 +1,90 @@
+{
+  "input_sources": {
+    "source_zip": {
+      "original_filename": "anonymous_repo_WDSM(1).zip",
+      "sha256": "6912f7a1e82264ca4c5cb28af940e198454e3c4a1da347fad2b6df80403a6daa",
+      "bytes": 1518054
+    },
+    "complete_uk_workbook": {
+      "original_filename": "01_primary_UK_detector_benchmark_COMPLETE_3083_REVIEWER_READY(1).xlsx",
+      "sha256": "50fd096d885e017dae0ad8484ef14797b2406a659d6d932826c80cda7c7968b9",
+      "bytes": 1124084
+    },
+    "hoax_semantic_review": {
+      "original_filename": "hoax_UK_manually_verified-2(1).csv",
+      "sha256": "0a33154da159c14b2a7bc13eeaf39ec67ba1689037cd32efa42f1c776ef3e4b0",
+      "bytes": 20491
+    },
+    "misinformation_review": {
+      "original_filename": "misinformation_UK_reviewed-2(3).xlsx",
+      "sha256": "4664f7c09b88b76dce57be68fa10e3e54bba9f748a66461062449a83667ad66d",
+      "bytes": 17172
+    },
+    "parody_review": {
+      "original_filename": "Parody_UK_reviewed-2(3).xlsx",
+      "sha256": "1c1fbf6b85298701c05627d407308b6eabfebb0dcde486cb93059e997eef16bf",
+      "bytes": 74239
+    },
+    "user_provided_metrics": {
+      "original_filename": "metrics(1).json",
+      "sha256": "c8b7afbdf193cabe59e50940999338bdef21ec84bbf042a2aa0b84637013c8a1",
+      "bytes": 57797
+    },
+    "manuscript_pdf": {
+      "original_filename": "Benchmarking_Contextual_Detectors_of_Real_Word_OCR_Substitutions_in_Historical_Newspaper_Search(3).pdf",
+      "sha256": "50165f15f1e4cc6e820839a99edf38ff7a0ec967d15ce311ab548cffefcb6c97",
+      "bytes": 525688
+    },
+    "corrections_notes": {
+      "original_filename": "MANUSCRIPT_CORRECTIONS(1).md",
+      "sha256": "5eefb47733132b7d974673da8433124a2b4d2dc5be15856c1d8ebf313daf9131",
+      "bytes": 7059
+    },
+    "previous_readme": {
+      "original_filename": "README-4.md",
+      "sha256": "b2dcfd98b567eac9d30c918fccfe418c36864f0921727468ff2ffaf902f0e78f",
+      "bytes": 11364
+    },
+    "changelog_notes": {
+      "original_filename": "CHANGELOG(1).md",
+      "sha256": "a3b6ce3d9be6b9c72c93e34f4fc282cc5ba6df5c949ee94531849f94b905e21b",
+      "bytes": 2839
+    },
+    "reproduction_notes": {
+      "original_filename": "REPRODUCTION_SUMMARY(1).md",
+      "sha256": "615e48ba1f6c8e1e4dcf3e637d5e0a75bb9044c9a661aaa8e4c13a36df37c860",
+      "bytes": 2774
+    },
+    "library_later_context_full_3083": {
+      "original_filename": "03_ANNOTATION_VERSION_COMPARISON_3083.xlsx",
+      "sha256": "83ebd42d3f3fe59f69ee5c9a6de98262742557fac7bcc82bf11841f67c49baf5",
+      "bytes": 634434,
+      "retrieved_from": "existing user Library file"
+    },
+    "library_third_person_image_review_60": {
+      "original_filename": "Satire_image_check_1(1).xlsx",
+      "sha256": "0aa6a69b1e210a2a8759e3f86983ae3822c84db8430ed284e7da74a37b28aa63",
+      "bytes": 1359637,
+      "retrieved_from": "existing user Library file"
+    },
+    "semantic_manual_hoax": {
+      "original_filename": "hoax_UK_manually_verified-2(2).csv",
+      "sha256": "0a33154da159c14b2a7bc13eeaf39ec67ba1689037cd32efa42f1c776ef3e4b0",
+      "bytes": 20491,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    },
+    "semantic_manual_misinformation": {
+      "original_filename": "misinformation_UK_manually_verified.csv",
+      "sha256": "733e1af379c7b097ff98799b205b8cf8b9452abdb6795fe4d0b677344069a619",
+      "bytes": 26211,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    },
+    "semantic_manual_parody": {
+      "original_filename": "parody_UK_manually_verified(1).csv",
+      "sha256": "abf1bd56d4f39e6cae421f18e9ee1b906f9510eb83f4a2f921d8de12a65c484d",
+      "bytes": 93136,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    }
+  },
+  "provenance_rule": "No newly verified page images or invented old case labels. Dates 2026-11-18."
+}

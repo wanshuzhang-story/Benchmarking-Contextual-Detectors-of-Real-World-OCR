@@ -1,0 +1,115 @@
+idx,matched_sentence,Original_Content,Original_Success,Manual_Valid,Manual_Content,Manual_Function,Note
+0,A HOAX.—An unfeeling hoax was practised ona Taunton tradesman on Tuesday.,,False,True,a Taunton tradesman,referent,"victim via ""practised on X"", passive; MISSED by code"
+1,The Hall then'sd A. knavish hoax had the effect 1:11the funds yesterday a trifle.,knavish,True,True,knavish,epithet,correct in code
+2,"Having laid down these premises, he indignation was being felt at the hoax.",,False,True,,none,"anaphoric only, no new referent"
+3,Wedo not say that the Morning Star was hoaxed.,,False,True,the Morning Star,referent,"victim (newspaper); passive ""was hoaxed""; MISSED"
+4,"Sir Henry Rawlinson, having,suspicion of their authenticity, submitted the docu-ments to a most searching examination, and the re-sult he has arrived at is that the whole account isan elaborate geographical hoax.",geographical,True,True,elaborate geographical,epithet,"code got ""geographical"" only; missed co-occurring ""elaborate"""
+5,When Isaw the paragraphs I thought they were a hoax.,,False,True,the paragraphs,referent,"predicate-nominal via anaphoric ""they""; MISSED"
+6,"When Isaw the paragraphs I thought they were a hoax,It was all a joke about sending the dead cat.",,False,True,the paragraphs about sending the dead cat,referent,MISSED
+7,"Lord BROUGHAM could not but think that the re-solution to which the Noble Duke had referred, was,no-thing but a hoax.",,False,True,the resolution to which the Noble Duke had referred,referent,predicate nominal; MISSED
+8,"On the other hand,there are some who view the whole affair as a stupid"" sensation"" hoax.",stupid,True,True,stupid,epithet,"correct in code; ""sensation"" compound also present but not extracted"
+9,"This hoax is improbable enough, but still man ever goes to it a second time.",,False,True,improbable,epithet,MISSED - garbled 2nd clause
+10,"Perhaps he whole will turn out to be a hoax, but a hoax fiat ought not to have been played.",,False,partial,,none,too garbled to extract cleanly
+11,"NATHAN NOGGS,Captain of the schooner, Hoax.",,False,exclude,,exclude,proper noun: name of a schooner
+12,"Ile was in our hoax,and had only taken one glass of grog.",,False,partial,,none,likely OCR misread of a different word; unusable
+13,"The report, however, was a hoax;the hoaxer is in the New Bailey.",,False,True,The report,referent,predicate nominal; MISSED
+14,Why was not Seward re-moved for the Mallory hoax?,Mallory,True,True,Mallory,referent,correct in code
+15,"After all, however,that unhappy print may have been hoaxed.",,False,True,that unhappy print,referent,victim (a newspaper); MISSED
+16,"Don Quixote started up,surd it was a hoax.",,False,True,,none,"anaphoric ""it"" only, no in-sentence referent"
+17,"City Hall, both poorly constructed, badly injured, The following advertisement, or hoax, appears in thej._ supplied, as soon as published, Every Evening, by W. ~.g. and some buildings in process of construction have.",,False,True,advertisement,referent,"appositive ""advertisement, or hoax""; MISSED"
+18,"The bandage was ac-cordingly put on, and kept on till the next morning,when he himself removed it, and found too hite thathe had been hoaxed.",,False,True,he,pronoun_referent,self as victim via passive; MISSED
+19,Hoaxer seconded the motion; which was car-ried unanimously.,,False,exclude,,exclude,"proper-noun-like usage, person nicknamed Hoaxer"
+20,This hoax is somewhat more detailed as follows: GERMANY.,,False,True,,none,"refers to detail given later in text, not in this sentence"
+21,"The bandage was ac-cordingly put on, and kept on till the next morning-,when he himself removed it, and found too late thathe had been hoaxed.",,False,True,he,pronoun_referent,duplicate of 18
+22,"The woman then asked her what she __ea_ have returned, declaring it a hoax.",,False,True,,none,"referent unclear/external, truncated"
+23,"The woman then asked'her what she _ice_ have returned, declaring it a hoax.",,False,True,,none,duplicate of 22
+24,They have learned to hoax at Pavia as well asin England.,,False,True,at Pavia / in England,location,"location of practice, not victim; MISSED"
+25,Of the brain:Those witches are given to hoax.,,False,partial,those witches,agent,"fragment; agent who hoaxes, thin evidence"
+26,Another Dramatic Hoax has succeeded at Seven-oaks heat.,Dramatic,True,True,Dramatic,epithet,correct in code
+27,"He star'd with incredulous wonder a-while,Then bade me proceed With a wink and a smile,Intended to hint (so at least I suspected),I might say what I pleas'd, for the hoax was.",,False,partial,,none,"garbled poem fragment, sentence cuts off"
+28,"This petition, like the great demonstration got upfor Monday last, turns out to be a veritable hoax.",veritable,True,True,veritable,epithet,"correct in code; referent ""This petition"" also present but not extracted"
+29,"This petition, like the great demonstration got upfor Monday last, turns out to be a veritable hoax.",veritable,True,True,veritable,epithet,duplicate of 28
+30,"He thought they wanted to hoax him a!first, and desired them to ~.",him,True,True,him,pronoun_referent,correct in code
+31,AThe Hoax of the Shakespeare Bi:Stratford-upon-Avon.,AThe,True,True,"the Shakespeare Birthplace, Stratford-upon-Avon",referent,"code extracted junk ""AThe"" (OCR merge artifact); real referent recovered by hand"
+32,"UNFEELING HOAX —We grieve to say that in' the course of yesterday evening some person got out a bill, im-porting that the state of the poll, at three o'clock, was sixty-three majority for Dawson.",,False,True,a bill stating sixty-three majority for Dawson,referent,"the false election claim itself; MISSED, complex"
+33,"The prisoners' I must have been out of my senses at the time, and the means consider it a hoax.",,False,partial,,none,too garbled semantically
+34,The hoax was probably got up in this city.,,False,True,in this city,location,MISSED
+35,The hoax was probably got up in this city.,,False,True,in this city,location,duplicate of 34
+36,"Another balloon hoax,if you please, says a wag.",balloon,True,True,balloon,epithet,correct in code (domain-type modifier)
+37,"Wasit a mere hoax, or had it any specific pur-pose?",mere,True,True,mere,epithet,correct once parsed in full sentence context (isolated reparse earlier mis-tagged this)
+38,"Ile immediately perceived the hoax,and his fury was beyond all description.",,False,True,,none,"anaphoric only; verb ""perceived"" notable (detection framing)"
+39,"At last Tuesday night arrived, with the same result, andthe consequence has been a general feeling of amuse-ment at the thing being a hoax.",,False,True,the thing,referent,"referent vague/anaphoric, thin"
+40,"The new Bankruptcy Bill?—no,gentlemen, none of your hoaxing.",,False,True,The new Bankruptcy Bill,referent,"DENIAL context (""none of your hoaxing""); MISSED"
+41,The authorities of Wolverhampton are said to be satis-fied that the document which was found in Darlington-street was no hoax.,,False,True,the document found in Darlington-street,referent,"DENIAL context (""was no hoax""); MISSED"
+42,"Barnett, Hoaxes, and C. 6,2 Lombard-street.",,False,exclude,,exclude,"likely business/surname listing, not concept usage"
+43,"The revolution in Paraguay is, as was expected,a hoax.",,False,True,The revolution in Paraguay,referent,predicate nominal; MISSED
+44,"The woman then asked'her what she -.ea_ have returned, declaring it a hoax.",,False,True,,none,"duplicate of 22/23, referent unclear"
+45,A.—Try no hoaxes onthe labouring classes.,,False,True,the labouring classes,referent,"intended victim via ""on X""; MISSED despite matching general pattern"
+46,"People natu-rally hoax the willing, and, at present, The Times'is willing enough to be hoaxed on the Ballot.",the willing,True,True,the willing,referent,"correct in code; ""The Times"" and ""the Ballot"" also present but not captured"
+47,He had hoax&with unfeigned astonishment the comment made by hishon.,,False,partial,,none,too garbled
+48,"The letter purporting to come from Sir B. Hal which appeared in our impression of Saturday is, appears, what is called a hoax.",,False,True,the letter purporting to come from Sir B. Hall,referent,"MISSED; also carries hedging marker ""what is called a hoax"""
+49,"In the afternoon the hoax was dis-covered, and amongst its alleged contrivers was after-wards prosecuted the hero of the Basque roads.",,False,True,the hero of the Basque roads,agent,"contriver/agent named; MISSED, thin"
+50,"Cumming, since the exposure orthe Lancashire earthquake hoax, has none.",orthe Lancashire earthquake,True,True,the Lancashire earthquake,referent,"code extracted ""orthe..."" (OCR merge ""or""+""the""); cleaned by hand"
+51,"An Irish Paper mentions the capture of a Mer-maid on the coast oti the Island of Magee; hnt itis supposed to be—not a Mermaid, but a Hoax.",,False,True,the capture of a Mermaid on the coast of the Island of Magee,referent,MISSED
+52,"After being some time in the watchhouse it was dis-covered that the whole was a hoax, played by the other con-stables both on poor Harris and the watchmen.",,False,True,poor Harris and the watchmen,referent,"victims via ""played by X on Y""; agent ""the other constables"" also present; MISSED"
+53,"Assume therefore as rental of hoaxes 25,000,0003.",,False,partial,,none,garbled financial/numeric fragment
+54,"The claim is under the""jolly good hoax,"" remains unknown.",good,True,True,jolly good,epithet,"code got ""good""; missed co-occurring ""jolly"""
+55,The English and Americans in Rome have thisweek been the victims of a hoax worthy of Barnum.,,False,True,The English and Americans in Rome,referent,"victims; also compares to P.T. Barnum (""worthy of Barnum""); MISSED, notable"
+56,"Then how shall we speak of the government scheme,This hoax, this imposture, delusion and dream!",,False,True,the government scheme,referent,"appositive; also lists near-synonyms imposture/delusion/dream; MISSED, notable for semantic-field evidence"
+57,"He immediately perceived the hoax,and his fury was beyond all description.",,False,True,,none,duplicate of 38
+58,"Our readers, we fear, will suspect we are hoaxing them.",them,True,True,them,pronoun_referent,correct in code
+59,"The Russian Mi-nister, however, considered the report to be a hoax.",,False,True,the report,referent,predicate nominal; MISSED
+60,"The defeated candidate, his committee, his friends,his counsel, down to his very attorney, were all hoaxed!",,False,True,"The defeated candidate, his committee, his friends, his counsel, his attorney",referent,"victim list; MISSED, rich content"
+61,We suspect some one has been hoaxing our contemporary.,our contemporary,True,True,our contemporary,referent,correct in code
+62,"The letter signed "" James Henderson,"" about the sea-serpent turns out to be a hoax.",,False,True,"The letter signed ""James Henderson,"" about the sea-serpent",referent,"MISSED, notable specific referent"
+63,"MONSTER PETITION.—This Petition, like the great demonstration got up for Monday last, turns out to „.be a veritable hoax.",veritable,True,True,veritable,epithet,duplicate of 28/29
+64,"The crowds at last perceived the hoax'which had been practised, and gradually dispersed.",,False,True,,none,"anaphoric; ""the crowds"" = witnesses, not victim"
+65,"The lather came into the hoax as I went oat, but Idid not speak to him...",,False,partial,,none,too garbled/unclear
+66,"No, gentlemen,""was the reply, "" you have been shamefully hoaxed.",,False,True,shamefully,epithet,"adverbial epithet on verb form ""hoaxed""; new pattern, MISSED"
+67,Judia said that warn rut a proper hoax to inquire.,proper,True,True,proper,epithet,correct in code
+68,"How are we to How that it is not a hoax twe shall feel obliged if "" One of the Agents"" will call atour dike to explain one or two statements in his letter.",,False,partial,,none,"too garbled; negation ""not a hoax"" noted but no referent"
+69,The hoax divided—For the second raiding.,,False,partial,,none,"fragment, unclear"
+70,"Buret Hoaxes, nee, the Chuck Fordington,Dorchester.",,False,exclude,,exclude,likely business/surname listing
+71,"The resolutions of Hoaxes would be laughed at now,hissed off the stage along nil h the doctrines of RICARDO.",,False,exclude,,exclude,"likely proper-noun/nickname usage, ambiguous"
+72,"PARLIAMENT.—An empty soni.d, a hoax, an impos-ture.",,False,True,PARLIAMENT,referent,"appositive; also lists near-synonym ""imposture""; MISSED, notable"
+73,"Exchange 'hoaxer's, have traversed the bill of indict-meat that has been found against them, so that the legal investigation.",,False,partial,,none,"too garbled/unclear, about legal proceedings vs ""hoaxers"" generally"
+74,The Exeter people were hoaxed on Saturday even-ing.,Saturday,True,True,The Exeter people,referent,"code extracted ""Saturday"" (wrong_slot, temporal); real victim is the passive subject"
+75,"He wrote "" dear friends, my Heart's with yoo,""'Twos all a hoax fur well he knew.",,False,True,"dear friends, my Heart's with you",referent,quoted letter content revealed as the hoax; MISSED
+76,Hyde c--Tr. How many times did you call at tint Hoax?,tint,True,exclude,,exclude,"court-testimony context; ""Hoax"" likely a place/pub name here"
+77,"But this was not the ore—it was oily to find themselves hoaxed by the small boys, wiec,appeared to enjoy the joke exceedingly.",,False,True,the small boys,agent,"agent via ""hoaxed by X""; new pattern, MISSED"
+78,"The person who was supposed"" Hot honor end rights to sustain; to have been the occasion of this hoax was laid in goal' lies mese as their own every true Briton feels, in less than ten hours after the excisemen returned to' And new while bar wrongs each vile intrigue reveals,"" Pray Heaves she appeals not in vain!-town.",,False,partial,,none,unreadable poem fragment
+79,Thailand' of persons were on Sunday hoaxed.,,False,partial,persons,referent,"very thin/generic, garbled quantifier"
+80,Hoax again nominated as guardians of the poor.,,False,exclude,,exclude,proper noun: surname of a person nominated as guardian
+81,"Along the Rink careering fast,How women hoax their lords and masters:SMITH thought an angel glided past, -And it was Mrs. SMITH on castors!—Punch.",their lords and masters,True,True,their lords and masters,referent,correct in code (Punch magazine verse)
+82,SHAMEFUL HOAX.—The public are requested to be.,,False,True,shameful,epithet,headline truncated but epithet recoverable; MISSED
+83,"THE BRISTOL HOAX.-We learn, says the Bristol Mirror navy.",,False,True,Bristol,referent,MISSED occurrence of same Bristol-hoax case as row 86
+84,"Who will not be surprised if, and the vehicle-they do not "" throw cold water"" on the affair as a hoax?",,False,True,the affair,referent,thin/generic; MISSED
+85,"What may have been the- 'object of the author of this hoax I cannot say; but, at aft 'events, every one must agree in the propriety of holding up.",,False,True,,agent,agent (author) acknowledged but unnamed
+86,The parties are better known as those en-gaged in the Bristol hoax.,Bristol,True,True,Bristol,referent,correct in code
+87,"Amber'd, or bronz'd, or sanguin'd, in the sun;- traordinary hoaxing affair at Bristol that has recently attracted was sung in the streets of.",,False,partial,extraordinary,epithet,"garbled poem fragment, low confidence"
+88,"The paperin whose columns the false news originally appeared,confesses that it was hoaxed.",,False,True,The paper in whose columns the false news originally appeared,referent,victim (a newspaper); MISSED
+89,Somebody hoaxed the London fire-brigade on Tues-day morning.,the London fire - brigade,True,True,the London fire-brigade,referent,correct in code
+90,"Failures have been frequent, and hoaxes not a few.",,False,True,,none,"generic/abstract statement, no specific referent"
+91,"IN Kingston, the pride of Jamaica's fair Isle,Where Fortune is prone on her vot'ries to smile,A hoax was tried lately, a bet to decide,(The parties agreed by such proof to abide),Which one of the arts in the island supplied,Was must to fine Taste and high Fashion allied!",,False,True,a bet over which art form suited fine Taste and high Fashion,referent,poem; hoax framed as a wager; MISSED
+92,"We subjoin them in the officers and soldiers, baggage, and stores, is very great,gape in which they-have reached us: as well as hoaxes.",,False,partial,,none,"too garbled, unclear coherent meaning"
+93,"The home hoaxes,dolor a fair business, are far born being Waded withthe sale.",home,True,True,home,referent,"domain-type modifier (domestic vs foreign); correct in code, reclassified referent-domain not pure epithet"
+94,So pray help us.- - The Record has been hoaxed.,,False,True,The Record,referent,victim (a named newspaper); MISSED
+95,"Tickets and Shares, warranted!indrawn,are on fate at Hoax say's and Co.'s State Lottery.",,False,exclude,,exclude,"likely business name (""Hoaxey's and Co."")"
+96,"In hopes of telt, f, I had, hoax tine to time, recourse.othe het.t advice, and took the meat approved prescript!ons, with-out being:my better.",,False,partial,,none,"too garbled, quack-remedy fragment"
+97,The vagabonds themselves con-fined it was all hoax.,,False,True,the vagabonds,agent,"agent who confessed; thin, MISSED"
+98,"After all,it is possible 'the story may be a hoax.",,False,True,the story,referent,"hedged with ""possible""/""may be""; MISSED"
+99,"Capt 'Scale's brown horse, Hoax, green, 9st.",,False,exclude,,exclude,proper noun: name of a racehorse
+100,"The resemblance between her and the de-ceased was so great, that a hoax was suspected.",,False,True,The resemblance between her and the deceased,referent,"causal referent, identity-mistake scenario; MISSED"
+101,Chapter I.—De Vehiculorum Primo Auctore;or Who was the first Coachmaker?—Hoaxing Histories.,,False,exclude,,exclude,"book/column title (""Hoaxing Histories""), meta-reference not a specific instance"
+102,"Be was not exactly killed, hut bit an'inch or two deep in the loins only; and the people departed seats.fled, that neither Wallace nor his master bad hoaxed the public.",the public,True,True,the public,referent,correct in code; agents Wallace/his master named in denial context
+103,"JULY S.—Wind S. W.—Arrived a Government the hoax attempted to be played off on Monday, on the %ft-176;pos &whs.",,False,partial,,none,"too fragmentary, shipping-log style text"
+104,He hoped they would ere hoax Wahl that object.,,False,partial,,none,too garbled/unclear
+105,"IN Kingston, the pride of Jamaica's fair Isle,Where Fortune is prone on her vot'ries to smile,A Hoax wag tried lately, a bet to decide,(The parties agreed by such proof to abide),Which one of the arts in the Island supplied,Was most to fine Taste and high Fashion allied?",,False,,a bet over which art form suited fine Taste and high Fashion,referent,duplicate of 91
+106,"The canal.however,was searched, but the hoax was too palpable.",,False,True,palpable,epithet,MISSED (credibility-judgment epithet)
+107,"Male, and thought that an opportunity like this Wright not again occur s so I married her without delay, and found myself plitt lady hoaxed.",,False,partial,,none,too garbled for confident extraction
+108,The story about old being found in New Bruns-wick is a hoax.,,False,True,the story about gold being found in New Brunswick,referent,"MISSED, false-discovery theme"
+109,"This appeal was well received by the audience, andthe Opera proceeded with its usual success.—Mr. Hoax was loudly greeted.",,False,exclude,,exclude,fictional character name in an opera/play
+110,"Spoken for what he has said this day to the hoax, end that the same be printed in the,votes of this day, and entered in the journal of this home.",,False,partial,,none,"too garbled, parliamentary procedural language"
+111,"IN Kingston, the pride of Jamaica's fair Lie,Where Fortune is prone on her vot'ries to smile,A Hoax was tried lately, a bet to decide,(The parties agreed by such proof to abide),Which one of the arts in the island supplied,Was most to fine Taste and high Fashion allied?",,False,True,a bet over which art form suited fine Taste and high Fashion,referent,duplicate of 91
+112,"Well, the whole affair is a shameful and impu-dent hoax.",shameful,True,True,"shameful, impudent",epithet,"code got ""shameful"" only; missed co-occurring ""impudent"""
+113,"Peveril, an Opera, by POCOCK, the music by Hoax, will be one ofthe forthcoming novelties at Covent Garden theatre.",,False,exclude,,exclude,proper noun: composer/stage name in theatre listing

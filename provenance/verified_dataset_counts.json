@@ -1,0 +1,38 @@
+{
+  "population_rows": 3083,
+  "query_counts": {
+    "satire": 2202,
+    "parody": 684,
+    "hoax": 114,
+    "misinformation": 83
+  },
+  "historical_satire_binary": 2161,
+  "original_satire_substitutions": 186,
+  "original_satire_inferred_source_words": 186,
+  "later_review_definite_single_token_inferred_words": 14,
+  "total_nonblank_inferred_source_words_3083": 206,
+  "historical_nonsatire_rows_unlabeled": 881,
+  "external_sampled": 1093,
+  "external_final_unresolved": 9,
+  "external_final_reported_substitutions": 49,
+  "external_original_reported_substitutions": 22,
+  "external_rows_with_printed_word_record": 80,
+  "external_recorded_rechecks": 111,
+  "external_source_note_contradictions": 5,
+  "saved_score_files_per_set": {
+    "benchmark": 22,
+    "external": 22
+  },
+  "later_hoax_source_word_inferences_from_full_context_review": 10,
+  "inferred_word_conflicts": 8,
+  "full_later_context_review_rows": 3083,
+  "full_later_context_review_suspected_substitutions": 72,
+  "third_person_UK_satire_review_rows": 60,
+  "third_person_UK_satire_reported_printed_words": 46,
+  "available_image_word_records_two_designs": 126,
+  "additional_semantic_source_crosscheck": {
+    "matched_rows": 881,
+    "primary_guesses_withheld": 4,
+    "note": "Semantic extraction notes are not source-image verification."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "sources": {
+    "hoax": {
+      "original_filename": "hoax_UK_manually_verified-2(2).csv",
+      "sha256": "0a33154da159c14b2a7bc13eeaf39ec67ba1689037cd32efa42f1c776ef3e4b0",
+      "bytes": 20491,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    },
+    "misinformation": {
+      "original_filename": "misinformation_UK_manually_verified.csv",
+      "sha256": "733e1af379c7b097ff98799b205b8cf8b9452abdb6795fe4d0b677344069a619",
+      "bytes": 26211,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    },
+    "parody": {
+      "original_filename": "parody_UK_manually_verified(1).csv",
+      "sha256": "abf1bd56d4f39e6cae421f18e9ee1b906f9510eb83f4a2f921d8de12a65c484d",
+      "bytes": 93136,
+      "document_purpose": "Historical manual evaluation of semantic/content extraction; NOT printed-word image ground truth"
+    }
+  },
+  "verification": {
+    "verified_semantic_source_rows": 881,
+    "exact_index_and_sentence_matches": 881,
+    "semantic_source_breakdown": {
+      "hoax": 114,
+      "misinformation": 83,
+      "parody": 684
+    },
+    "primary_inferred_words_before": 210,
+    "primary_inferred_words_after": 206,
+    "historical_satire_context_words_unchanged": 186,
+    "non_satire_primary_inferred_words_after": {
+      "hoax": 10,
+      "misinformation": 0,
+      "parody": 10
+    },
+    "word_candidate_rows_audited": 38,
+    "withheld_entries": {
+      "UK_HOAX_0093": {
+        "status": "WITHHELD_INDETERMINATE_WORD",
+        "reason": "Earlier semantic review treats this as a domestic-vs-foreign modifier; later guess houses is not demonstrated by that review and alternatives remain possible. Printed word requires an image check."
+      },
+      "UK_PARODY_0017": {
+        "status": "WITHHELD_CONFLICT_WITH_LATER_REANNOTATION",
+        "reason": "Preliminary guess presided; later full contextual annotation explicitly marks the record UNCERTAIN and supplies no replacement."
+      },
+      "UK_PARODY_0024": {
+        "status": "WITHHELD_CONTEXT_WORD_FIT_DOUBTFUL",
+        "reason": "The proposed Paradise does not plausibly fit the quoted advertisement for the Deaf; two later contextual versions agree but neither demonstrates the word from the page."
+      },
+      "UK_PARODY_0641": {
+        "status": "WITHHELD_CONFLICT_WITH_LATER_REANNOTATION",
+        "reason": "Preliminary guess paradise conflicts with later full contextual category GENUINE, while the older extraction review labels a semantic epithet; image evidence absent."
+      }
+    },
+    "semantic_Manual_Valid_is_page_image_verification": false,
+    "original_non_satire_OCR_gold_labels_recovered": false,
+    "newspaper_page_images_newly_checked": 0
+  }
+}
